@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	outline: none;
+  text-decoration: none;
+	color: inherit;
+}
+
+.page {
+	width: 500px;
+	padding: 10px;
+	background-color: rgb(230, 230, 230);
+}
+
+.add-block {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 15px;
+	padding: 6px 10px;
+	background-color: #fff;
+}
+
+.btn {
+	padding: 5px 8px;
+	font-size: 12px;
+	font-weight: 700;
+	border: none;
+	border-radius: 3px;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.add-btn,
+.edit-btn {
+	color: #fff;
+	background-color: rgb(66, 105, 175);
+}
+
+.edit-btn {
+	margin-right: 10px;
+}
+
+.delete-btn {
+	color: #fff;
+	background-color: rgb(177, 67, 67);
+}
+
+.like-btn,
+.comment-btn,
+.cancel-btn {
+	color: rgb(107, 107, 107);
+	background-color: #fff;
+}
+
+.post {
+	margin-bottom: 15px;
+	padding: 10px 13px 0 13px;
+	border: 1px solid rgb(204, 204, 204);
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.post-header {
+	display: flex;
+	align-items: center;
+}
+
+.post-info {
+	margin-left: 10px;
+}
+
+.user-name {
+	font-weight: 700;
+	color: rgb(66, 105, 175);
+}
+
+.post-date {
+	font-size: 12px;
+	color: rgb(107, 107, 107);
+}
+
+.post-content {
+	padding: 15px 0;
+	font-size: 22px;
+}
+
+.post-footer {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+	border-top: 1px solid rgb(204, 204, 204);
+}
+
+.post-actions-container {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 0;
+	border-top: 1px solid rgb(204, 204, 204);
+}
+
+.create-post-container,
+.edit-post-container {
+	padding: 10px 13px;
+	background-color: #fff;
+}
+
+.create-post-header,
+.edit-post-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	color: rgb(107, 107, 107);
+	border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.create-post-form,
+.edit-post-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.create-post-input,
+.edit-post-input {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: none;
+	outline: none;
+	resize: none;
+}
+
+.button-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 10px;
+	border-top: 1px solid rgb(204, 204, 204);
+}
